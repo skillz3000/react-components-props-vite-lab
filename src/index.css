@@ -1,0 +1,55 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #263238;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+aside {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+aside img {
+  width: 215px;
+  height: 215px;
+  object-fit: cover;
+}
+
+main {
+  padding: 20px;
+}
+
+article {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+article h3 {
+  color: #263238;
+}
+
+article small {
+  color: #777;
+}
+
+article p {
+  line-height: 1.6;
+}

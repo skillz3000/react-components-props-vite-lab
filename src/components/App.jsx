@@ -1,24 +1,20 @@
-import Header from "./Header";
-import About from "./About";
-import BlogPosts from "./BlogPosts";
-import Footer from "./Footer";
 
 import blog from "../blog";
-import "../App.css";
+import Header from "./Header";
+import About from "./About";
+import ArticleList from "./ArticleList";
 
 function App() {
   return (
-    <div>
-      <Header title={blog.title} />
+    <div className="App">
+      <Header name={blog.name} />
 
       <About
-        author={blog.author}
+        image={blog.image}
         about={blog.about}
       />
 
-      <BlogPosts posts={blog.posts} />
-
-      <Footer author={blog.author} />
+      <ArticleList posts={blog.posts} />
     </div>
   );
 }

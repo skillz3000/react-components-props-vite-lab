@@ -1,8 +1,8 @@
-function Header({ title }) {
+
+function Header({ name }) {
   return (
     <header>
-      <h1>{title}</h1>
-      <p>Welcome to my blog!</p>
+      <h1>{name}</h1>
     </header>
   );
 }

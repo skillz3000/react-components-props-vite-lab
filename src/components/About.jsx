@@ -1,10 +1,13 @@
-function About({ author, about }) {
+
+function About({
+  image = "https://via.placeholder.com/215",
+  about,
+}) {
   return (
-    <section>
-      <h2>About Me</h2>
-      <h3>{author}</h3>
+    <aside>
+      <img src={image} alt="blog logo" />
       <p>{about}</p>
-    </section>
+    </aside>
   );
 }
 
